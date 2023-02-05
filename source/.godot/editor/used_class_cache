@@ -1,0 +1,104 @@
+res://cards.gd::1675598489::6aaf642c3cb62103623f2dc9ebcb6add::GDScript
+res://deck.gd::1675596318::94057a7e713c74b962f230f7b427c55b::GDScript
+res://export_presets.cfg::1675598456::b7869ce646f6230b05f5f609521a8ec6::
+res://icon.svg::1675481192::5ddad973d6395e772f8dfeaeed15f0a0::CompressedTexture2D
+res://Singleton.gd::1675505420::5ba92a92529096a00d7ab5ee0567f261::GDScript
+res://audio/ActuallyPlay.mp3::1675546173::f78cc853858af91ca7eed9445423fbfa::AudioStreamMP3
+res://audio/Hit.mp3::1675546495::7c3c447d95b68e6df9c0487c7dc8f514::AudioStreamMP3
+res://audio/PlayCard.mp3::1675545774::18e170547f72951e930d4edce2b20f28::AudioStreamMP3
+res://fonts/dogica/dogica.ttf::1675481679::57d7ce13093381acee3d40c5a512c770::FontFile
+res://fonts/dogica/dogicabold.ttf::1675481679::83f0175f47829233d8b2670e09a69043::FontFile
+res://fonts/dogica/dogicapixel.ttf::1675481679::4c37d66aa133265d20366d1f5496d92b::FontFile
+res://fonts/dogica/dogicapixelbold.ttf::1675481679::d373f6190a069937536a58c6f15477d6::FontFile
+res://game/camerascript.gd::1675581400::9e5f73a3e3c9f9cdfb517f100b7d0d9b::GDScript
+res://game/dmgvin.gdshader::1675586135::83ca5114e9f1b3bb65cdbb8d87ac05e6::Shader
+res://game/game.gd::1675596514::b7d608aba3d1d803fc9352a630b6acef::GDScript
+res://game/game.tscn::1675598561::f9f69b83be24d2906f4f8829c568b61a::PackedScene,SpriteFrames,Animation,AnimationLibrary,LabelSettings,ShaderMaterial,Control,AnimatedSprite2D,AnimationPlayer,ProgressBar,AudioStreamPlayer
+res://images/background/bck.png::1675583543::a0f4550e01e3cbc9bfced5fe8d235a35::CompressedTexture2D
+res://images/background/bcka1.png::1675549388::46b87aa48576240079924231be8acd05::CompressedTexture2D
+res://images/background/bcka2.png::1675549388::88dc576239255fd3027fdfafa75ac154::CompressedTexture2D
+res://images/background/bcka3.png::1675549388::6d8524ecebaa09a84faafc3be76ef1c7::CompressedTexture2D
+res://images/background/Monster Tree S1.png::1675584512::91d248244332bbabda76a690053e4b38::CompressedTexture2D
+res://images/background/Monster Tree S2.png::1675584512::718a6f5f8c29b6c5f2af606761cf8b10::CompressedTexture2D
+res://images/background/Monster Tree S3.png::1675584512::baea673b7f1b5a7df1c138752e5d0f59::CompressedTexture2D
+res://images/background/Monster Tree S4.png::1675584512::17ab2541c747969cec743745ff52c34c::CompressedTexture2D
+res://images/cards/.png::1675510353::602d8a149094dbdfd8fba6bb94f12e94::CompressedTexture2D
+res://images/cards/Attack.png::1675535370::2a8125560d04a68551ae900875b90ad2::CompressedTexture2D
+res://images/cards/Double Draw.png::1675535365::bd1350656de8ad8dc2c9167c7db36637::CompressedTexture2D
+res://images/cards/Draw.png::1675535365::feaddeab191859d5ff7dde9114f14a8e::CompressedTexture2D
+res://images/cards/Emotional_Damage.png::1675591632::d29788def924a2be1a7cc3c48d8b5ce4::CompressedTexture2D
+res://images/cards/Fill_Hand.png::1675587075::0b48cf33900fb311a7ed26de611a1835::CompressedTexture2D
+res://images/cards/Large Shield.png::1675535365::8fd996dbde60fa03615a56019504b7f3::CompressedTexture2D
+res://images/cards/Large_Shield.png::1675510669::57fbd62ddfe0ef3d62d2979d4a666431::CompressedTexture2D
+res://images/cards/Last Chance.png::1675535365::a4e562d935d41ddc54dff222b75b6ca8::CompressedTexture2D
+res://images/cards/Leach2.png::1675590780::639cc372bb59fbafa33ea9c6ffc588c9::CompressedTexture2D
+res://images/cards/Leach 1.png::1675535365::d29a90e1acbf9ad7efc3a956b52375c7::CompressedTexture2D
+res://images/cards/Leach.png::1675535365::1b33461c89eab1195612ecd9fc75c9c9::CompressedTexture2D
+res://images/cards/Leach_Axe.png::1675590948::9f49c183a108a32ba24ac6faa55436b0::CompressedTexture2D
+res://images/cards/Major Damage 1.png::1675535365::57ab70067c80842813645d2a2dd3b4ab::CompressedTexture2D
+res://images/cards/Major Damage 2.png::1675535365::c9ce3b9e3f8367224bea6da7ca4714d9::CompressedTexture2D
+res://images/cards/Major_Damage_4.png::1675597178::85b8228f8a73dfd394df79d8a630ef3b::CompressedTexture2D
+res://images/cards/Major_Damage_5.png::1675597186::bce38b4a61596a76cd642ef11ada1fae::CompressedTexture2D
+res://images/cards/prep.png::1675588756::dfd38bdc986a7de4a55f03095b4be61e::CompressedTexture2D
+res://images/cards/RAttack.png::1675543300::fdc7b88832da7410e75a535da651af6d::CompressedTexture2D
+res://images/cards/Re Draw.png::1675535365::079c62016e60344ef6d895b564d97c6c::CompressedTexture2D
+res://images/cards/Re_Draw_2.png::1675590772::046956343958ac216c2eff1afcb866c3::CompressedTexture2D
+res://images/cards/Root Remover.png::1675535365::d556e2183ff57494f4a9708eaa338a9d::CompressedTexture2D
+res://images/cards/Root Shield.png::1675535365::d3a13709db7752cf3b826a9f9cb040c3::CompressedTexture2D
+res://images/cards/Root_Remover.png::1675509990::b6d0184d5f5b9d2f3df84e5a998034bd::CompressedTexture2D
+res://images/cards/Root_Shield.png::1675510036::8c9a0afc9a17837bc36774b402ba01dc::CompressedTexture2D
+res://images/cards/Sac and Go.png::1675535365::c8ab83fbc8380be7920004994d40731a::CompressedTexture2D
+res://images/cards/Sneak2.png::1675590885::c381e4bd0aaa19f912a1de2e153451e1::CompressedTexture2D
+res://images/cards/Sneak Attack.png::1675535365::17d71d06a526659b342bcb4f3d5eb3b6::CompressedTexture2D
+res://images/cards/Take_a_Risk2.png::1675589409::cdf4ea5b7ac937b54fdfad8b43e1af6c::CompressedTexture2D
+res://images/cards/Take_a_Risk.png::1675589400::933efeb8a2844114f88a4f1a5d76a41b::CompressedTexture2D
+res://images/cards/Take_a_Risk_3.png::1675589762::617ac7d5b85c362b7879597826a0a982::CompressedTexture2D
+res://images/cards/Take__Risk.png::1675589771::a341638923f0064b447240aee2dfb165::CompressedTexture2D
+res://images/cards/Took_the_Risk.png::1675589712::ea15b29ef182cfae196f12ddde9c1a1a::CompressedTexture2D
+res://images/cards/Total Reset.png::1675535365::e81f751f8921675c2d1fa5130a816d61::CompressedTexture2D
+res://images/cards/Unroot.png::1675535365::4e35d8f95e85aaa31196d0082c19575b::CompressedTexture2D
+res://images/cards/What_I3.png::1675592696::9bb892262f3abac5b995488210de7c3d::CompressedTexture2D
+res://images/cards/What_I4.png::1675592809::e2bc5bb74c683d8ab23d147e4148f93e::CompressedTexture2D
+res://images/cards/What_If2.png::1675592616::85799e39fd69fdc8754e2feb4691b1da::CompressedTexture2D
+res://images/cards/What_If.png::1675592588::3a0a6a5029e8356f4072c686f5449f0b::CompressedTexture2D
+res://images/enemu/idle/enemuidle1.png::1675551088::8307f5ab3006668cb9d5d9ee18462410::CompressedTexture2D
+res://images/enemu/idle/enemuidle2.png::1675551088::d77372ddc605b75355be4ac3ebc75a0f::CompressedTexture2D
+res://images/enemu/idle/enemuidle3.png::1675551088::17e68d05a3795074c5234123d1b77d5d::CompressedTexture2D
+res://images/enemu/idle/enemuidle4.png::1675551088::14e740380de3bf489fcc40465c26de21::CompressedTexture2D
+res://images/enemu/idle/enemuidle5.png::1675551088::83f5a1d236a038a01be785bc94d480a0::CompressedTexture2D
+res://images/enemu/jumpscare/enemujump1.png::1675551824::8307f5ab3006668cb9d5d9ee18462410::CompressedTexture2D
+res://images/enemu/jumpscare/enemujump2.png::1675551824::d77372ddc605b75355be4ac3ebc75a0f::CompressedTexture2D
+res://images/enemu/jumpscare/enemujump3.png::1675551824::17e68d05a3795074c5234123d1b77d5d::CompressedTexture2D
+res://images/enemu/jumpscare/enemujump4.png::1675551824::cc3100ae4b30c04a7102951b8fbd87e9::CompressedTexture2D
+res://images/enemu/jumpscare/enemujump5.png::1675551824::990e391898777f1560dcc17ed3cfa755::CompressedTexture2D
+res://images/enemu/jumpscare/enemujump6.png::1675551824::5181d06a64ae47af30fb70680fdf5712::CompressedTexture2D
+res://images/enemu/jumpscare/enemujump7.png::1675551824::6b6f31cddf1382a0d1eef80e8784e646::CompressedTexture2D
+res://images/enemu/jumpscare/enemujump8.png::1675551824::b878321439c5429e5d355b14dafb610f::CompressedTexture2D
+res://images/enemu/jumpscare/enemujump9.png::1675551824::14e740380de3bf489fcc40465c26de21::CompressedTexture2D
+res://images/enemu/jumpscare/enemujump10.png::1675551824::83f5a1d236a038a01be785bc94d480a0::CompressedTexture2D
+res://images/enemu/tree/Tree1.png::1675583747::1422131421d318ab9017acc85c1fbd43::CompressedTexture2D
+res://images/enemu/tree/Tree2.png::1675583747::d29d083e75e4eebec3b751c821a417d9::CompressedTexture2D
+res://images/enemu/tree/Tree3.png::1675583747::d29d083e75e4eebec3b751c821a417d9::CompressedTexture2D
+res://images/enemu/tree/Tree4.png::1675583747::af522c6e30954d61555150448b96abbd::CompressedTexture2D
+res://images/enemu/tree/Tree5.png::1675583747::af522c6e30954d61555150448b96abbd::CompressedTexture2D
+res://images/enemu/tree/Tree6.png::1675583747::750a4ed801339a3fab8f96eab995af1d::CompressedTexture2D
+res://images/enemu/tree/Tree7.png::1675583747::750a4ed801339a3fab8f96eab995af1d::CompressedTexture2D
+res://images/enemu/tree/Tree8.png::1675583747::50b2b037dde21e33dc1ec9e9cc1f8be7::CompressedTexture2D
+res://images/enemu/tree/Tree9.png::1675583747::50b2b037dde21e33dc1ec9e9cc1f8be7::CompressedTexture2D
+res://images/enemu/tree/Tree10.png::1675583747::5daea3fbaaf94b62114fba816f3c7285::CompressedTexture2D
+res://images/overlay/Damaged2.png::1675547005::da102770ee2911c9a987ec5fa7a5a6a2::CompressedTexture2D
+res://images/overlay/Damaged.png::1675584367::b2df13cfa983baea8aab9210a4ebb521::CompressedTexture2D
+res://images/overlay/Root_Overlay.png::1675577090::a339131ab11a74c3c5b7e7c804a97a36::CompressedTexture2D
+res://menu/deckeditor.gd::1675595528::0ebc701ab7f35a3e7fd66f7ecaf72578::GDScript
+res://menu/deckeditor.tscn::1675598561::f28781de9860de72b5f0a3b7cf80cc07::PackedScene,Control,ScrollContainer,VBoxContainer,Button
+res://menu/menu.gd::1675595308::eca7b8f002706aabfe6b0cc5d925ff65::GDScript
+res://menu/menu.tscn::1675598561::cec4a4a69a340fa12c0d12e99b29f27a::PackedScene,LabelSettings,Control,Sprite2D,Label,Button
+res://player/cards/card.gd::1675590464::b884d81e9df6bedf5d2350637d103346::GDScript
+res://player/cards/card.tscn::1675598561::daf030d3f0d3d4af840a008776aceb05::PackedScene,Texture2D,LabelSettings,Panel,TextureRect,Label
+res://player/cards/cardcount.gd::1675595506::575eada713fa65905dd19f00423bf182::GDScript
+res://player/cards/cardcount.tscn::1675598561::cad8e4f61f8a8b740687c7c469339760::PackedScene,HBoxContainer,SpinBox
+res://player/cards/cardscene.tscn::1675598561::3f6ce5190ee380b6afc32fc973aea113::PackedScene,Control
+res://player/cards/cardvision.gd::1675594302::35a29ee1fa4fee2ecc2041f834bca63e::GDScript
+res://player/deck/deckscene.tscn::1675598561::23e579b7726a65d2aeb31385a11574ba::PackedScene,Control
+res://player/hand/hand.tscn::1675598561::76bd90111ef16423773ae40fff0ea73e::PackedScene,HBoxContainer
+res://player/hand/handcontainer.gd::1675598561::0a142472d5bbfafd6184776fcf8ae6af::GDScript

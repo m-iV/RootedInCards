@@ -1,8 +1,0 @@
-res://game/game.tscn::706aa82f4f0f6b53be515f57e58994e3::1675615241::res://.godot/exported/133200997/export-3c5491bc1cb430bead51b94ed5d36eda-game.scn
-res://menu/menu.tscn::c824564f9a9377a0ebc7a9b463f01794::1675615241::res://.godot/exported/133200997/export-4e96fb701b3cf98083d3f26d878d1a8e-menu.scn
-res://menu/deckeditor.tscn::04a0e639caca34caf5f7207d98e9cce1::1675615241::res://.godot/exported/133200997/export-ef0c172c6291b0fed8b556ae69531b50-deckeditor.scn
-res://player/cards/card.tscn::a2d85facd1acbd19ccf4f9306943e741::1675600886::res://.godot/exported/133200997/export-497fba962be56e88b90b5c57b15039a5-card.scn
-res://player/cards/cardscene.tscn::28229441a214da7efa7afdce99ef3ade::1675600886::res://.godot/exported/133200997/export-e0e00a7d4829830749d9164d3cc261ed-cardscene.scn
-res://player/cards/cardcount.tscn::4c2de1b9b4ecbb7e91f6ce5f243f606a::1675615241::res://.godot/exported/133200997/export-f63e2b0f46d8d0e731782b8e0fad96eb-cardcount.scn
-res://player/deck/deckscene.tscn::23e579b7726a65d2aeb31385a11574ba::1675600886::res://.godot/exported/133200997/export-e4415ed1b7ee47ca0467ca710a097378-deckscene.scn
-res://player/hand/hand.tscn::76bd90111ef16423773ae40fff0ea73e::1675600886::res://.godot/exported/133200997/export-c31d418b7281cc34156115bab70902c6-hand.scn
