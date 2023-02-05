@@ -1,0 +1,10 @@
+res://game/game.tscn
+res://menu/menu.gd
+res://player/hand/handcontainer.gd
+res://menu/deckeditor.tscn
+res://player/cards/cardcount.tscn
+res://menu/menu.tscn
+res://game/game.gd
+res://difficulty.gd
+res://deck.gd
+res://menu/deckeditor.gd

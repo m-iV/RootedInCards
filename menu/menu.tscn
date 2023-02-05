@@ -1,0 +1,115 @@
+[gd_scene load_steps=17 format=3 uid="uid://c8t6fhkvcvs72"]
+
+[ext_resource type="Script" path="res://menu/menu.gd" id="1_xte8h"]
+[ext_resource type="FontFile" uid="uid://db1w6x7nwj42" path="res://fonts/dogica/dogicapixelbold.ttf" id="2_lu4kx"]
+[ext_resource type="Texture2D" uid="uid://cfh266shcydlg" path="res://images/background/Monster_Tree_S4.png" id="2_uo40q"]
+[ext_resource type="Texture2D" uid="uid://dk4awwpul8ic3" path="res://images/buttons/Button Play/Button Start.png" id="4_i4gdm"]
+[ext_resource type="Texture2D" uid="uid://d0f4lnoeb580s" path="res://images/buttons/Button Play/Button Start Push.png" id="5_4v380"]
+[ext_resource type="Texture2D" uid="uid://cgakp321iyc4k" path="res://images/buttons/Button Play/Button Start Hover.png" id="6_dpl66"]
+[ext_resource type="Texture2D" uid="uid://chsv8mxksx7qr" path="res://images/buttons/Continue/Continue.png" id="7_3nbfa"]
+[ext_resource type="Texture2D" uid="uid://fuqccsmn0gqf" path="res://images/buttons/Button Edit Deck/Button Deck.png" id="7_dyrxm"]
+[ext_resource type="Texture2D" uid="uid://dhjbuycujnwox" path="res://images/buttons/Continue/Continue Push.png" id="8_0mp88"]
+[ext_resource type="Texture2D" uid="uid://d2qu8qfbiit57" path="res://images/buttons/Button Edit Deck/Button deck Push.png" id="8_vhp34"]
+[ext_resource type="Texture2D" uid="uid://du1qed3nka852" path="res://images/buttons/Button Edit Deck/Button deck Hover.png" id="9_jbow2"]
+[ext_resource type="Texture2D" uid="uid://bjm60xonqtjcf" path="res://images/buttons/Continue/Continue Hover.png" id="9_r3yu7"]
+[ext_resource type="Texture2D" uid="uid://cqvipyq6rpqm8" path="res://images/buttons/Button Quit/Button Quit.png" id="10_grnma"]
+[ext_resource type="Texture2D" uid="uid://dx7v7t3yg3ihf" path="res://images/buttons/Button Quit/Button Quit Push.png" id="11_g8ond"]
+[ext_resource type="Texture2D" uid="uid://bge5478hvi2ac" path="res://images/buttons/Button Quit/Button Quit Hover.png" id="12_fa5ku"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_ussl0"]
+font = ExtResource("2_lu4kx")
+font_size = 64
+font_color = Color(1, 0, 0, 1)
+outline_size = 10
+outline_color = Color(0, 0, 0, 1)
+shadow_size = 20
+shadow_color = Color(0.411765, 0.411765, 0.411765, 1)
+shadow_offset = Vector2(5, 5)
+
+[node name="Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_xte8h")
+
+[node name="Bck" type="Sprite2D" parent="."]
+texture = ExtResource("2_uo40q")
+centered = false
+
+[node name="Titlke" type="Label" parent="."]
+layout_mode = 0
+anchor_right = 1.0
+anchor_bottom = 0.1375
+grow_horizontal = 2
+text = "Rooted In Cards"
+label_settings = SubResource("LabelSettings_ussl0")
+horizontal_alignment = 1
+vertical_alignment = 1
+metadata/_edit_use_anchors_ = true
+
+[node name="Play" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.421875
+anchor_top = 0.277778
+anchor_right = 0.578125
+anchor_bottom = 0.416667
+offset_top = -1.52588e-05
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("4_i4gdm")
+texture_pressed = ExtResource("5_4v380")
+texture_hover = ExtResource("6_dpl66")
+metadata/_edit_use_anchors_ = true
+
+[node name="Play4" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.421875
+anchor_top = 0.430556
+anchor_right = 0.578125
+anchor_bottom = 0.569444
+offset_bottom = 3.05176e-05
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("7_3nbfa")
+texture_pressed = ExtResource("8_0mp88")
+texture_hover = ExtResource("9_r3yu7")
+texture_disabled = ExtResource("5_4v380")
+metadata/_edit_use_anchors_ = true
+
+[node name="Play2" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.421875
+anchor_top = 0.583333
+anchor_right = 0.578125
+anchor_bottom = 0.722222
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("7_dyrxm")
+texture_pressed = ExtResource("8_vhp34")
+texture_hover = ExtResource("9_jbow2")
+metadata/_edit_use_anchors_ = true
+
+[node name="Play3" type="TextureButton" parent="."]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.421875
+anchor_top = 0.736111
+anchor_right = 0.578125
+anchor_bottom = 0.875
+grow_horizontal = 2
+grow_vertical = 2
+texture_normal = ExtResource("10_grnma")
+texture_pressed = ExtResource("11_g8ond")
+texture_hover = ExtResource("12_fa5ku")
+metadata/_edit_use_anchors_ = true
+
+[connection signal="pressed" from="Play" to="." method="playGame"]
+[connection signal="pressed" from="Play4" to="." method="cont"]
+[connection signal="pressed" from="Play2" to="." method="toDeck"]
+[connection signal="pressed" from="Play3" to="." method="exit"]
